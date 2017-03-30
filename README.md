@@ -50,7 +50,7 @@ $texte: #AAA;
 
 $base_color: #48A3E9;
 ```
-- Créer un fichier assets/scss/app.scss et importez dedans le fichier colors.scss ci-dessus en mettant dedans:  
+- Créer un fichier assets/scss/app.scss et importez dedans le fichier \_colors.scss ci-dessus en mettant dedans:  
 ```
 @import nomdufichierSansLextensionSCSS
 ```
