@@ -1,0 +1,13 @@
+@import "_colors";
+@import "_liste.scss";
+@import"_headings.scss";
+body{
+  background-color:   $fond;
+  color: $texte;
+}
+
+%box {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}

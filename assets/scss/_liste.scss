@@ -1,0 +1,40 @@
+
+
+
+
+ul.listDeux{
+    padding: 0;
+    li {
+        list-style: none;
+        a {
+            color: blue;
+            &:hover {
+                color: lime;
+            }
+        }
+    }
+}
+
+
+ul.listTrois{
+    padding: 0;
+    li {
+        list-style: none;
+        a {
+            color: yellow;
+            &:hover {
+                color: grey;
+            }
+        }
+    }
+}
+
+
+  %box {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+.box1, .box2, .box3{
+    @extend %box;
+}
